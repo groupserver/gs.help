@@ -37,8 +37,6 @@ without having to write code. When coding, the manual acts as a guide
 as to the functionality that should be written. Finally, the help can
 be used as a functional test.
 
-
-
 User Guide
 ----------
 
@@ -48,10 +46,50 @@ FAQ
 Admin Manual
 ------------
 
+The administration manual contains ste-by-step instructions on how
+GroupServer groups and sites are administrated. It omits any tasks
+that require direct access to the filesystem, relational database,
+or Zope Management Interface. Developers are the primary audience for
+the administration manual, just like the `user manual`_.
+
+Sections are added to the manual using a `viewlet`_. The simplest way
+to create a section is to write a staic page snippet (contained within
+a ``<div>`` element). This snippet should be in the module that it is
+documenting. To add the section to the administration manual add the
+following to the ``configure.zcml`` file::
+
+  <browser:viewlet name="start-a-site-help"
+    manager="gs.help.interfaces.IAdminHelp"
+    template="browser/templates/help.pt"
+    permission="zope.Public"
+    weight="0" />
+
+* The ``name`` is not used, but is necessary (to turn the underlying
+  class into a *named adaptor*). The viewlet has the same name as the
+  ID of the top element in the section (a ``<div>``) but with ``-help``
+  appended.  This should help us find the ZPT page for the section if
+  we are looking at the help page, yet avoid name-clashes
+
+* The ``manager`` attribute determines the help page that the section
+  will appear in. In this case help for an administrator is being
+  provided so we attach to the ``gs.help.interfaces.IAdminHelp`` manager.
+
+* The ``template`` is the static ZPT page that contains the help text.
+  For most help static text will be fine. However, if you want
+  to do something fancy you can specify a class, or both a
+  class and a template. See the `viewlet`_ documentation.
+
+* The ``permission`` is required; it will probabily always be set to
+  ``zope.Public``.
+
+* The ``weight`` is used to sort the sections. The help above is the
+  first thing an administrator can do, so it is given a weight of 0.
+
 Admin Guide
 -----------
 
 .. Resources
 
 .. _GroupServer.org: http://groupserver.org
+.. _viewlet: http://docs.zope.org/zope.viewlet/
 
