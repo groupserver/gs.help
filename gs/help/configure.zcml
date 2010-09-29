@@ -3,8 +3,12 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five"
   i18n_domain="groupserver">
- 
-    
+  
+  <!--For some reason if the following line is not present the system
+    - throws a ForbiddenAttribute error on the render attribute of the
+    - first viewlet in the help page.-->
+  <include package="zope.viewlet" file="meta.zcml" />
+  
   <interface interface=".interfaces.IAdminHelp" />
   <browser:viewletManager
     name="groupserver.AdminHelpViewletManager"
@@ -18,9 +22,7 @@
     class=".adminhelp.AdminHelp"
     permission="zope.Public"/>
 
-</configure>
-
-<!--  <interface interface=".interfaces.IUserHelp" />
+  <interface interface=".interfaces.IUserHelp" />
   <browser:viewletManager
     name="groupserver.UserHelpViewletManager"
     permission="zope.Public"
@@ -32,4 +34,6 @@
     for="Products.GSContent.interfaces.IGSSiteFolder"
     class=".adminhelp.AdminHelp"
     permission="zope2.View"/>
--->
+
+</configure>
+
