@@ -3,22 +3,33 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five"
   i18n_domain="groupserver">
-  
-  <include package="zope.viewlet" file="meta.zcml" />
  
-  <browser:page 
-    name="adminhelp.html"
-    template="browser/templates/adminhelp.pt"
-    for="Products.GSContent.interfaces.IGSSiteFolder"
-    class=".adminhelp.AdminHelp"
-    permission="zope2.View"/>
     
   <interface interface=".interfaces.IAdminHelp" />
-  
   <browser:viewletManager
     name="groupserver.AdminHelpViewletManager"
     permission="zope.Public"
     provides=".interfaces.IAdminHelp"
     class="zope.viewlet.manager.WeightOrderedViewletManager"/>
+  <browser:page 
+    name="adminhelp.html"
+    template="browser/templates/adminhelp.pt"
+    for="Products.GSContent.interfaces.IGSSiteFolder"
+    class=".adminhelp.AdminHelp"
+    permission="zope.Public"/>
 
 </configure>
+
+<!--  <interface interface=".interfaces.IUserHelp" />
+  <browser:viewletManager
+    name="groupserver.UserHelpViewletManager"
+    permission="zope.Public"
+    provides=".interfaces.IUserHelp"
+    class="zope.viewlet.manager.WeightOrderedViewletManager"/>
+  <browser:page 
+    name="userhelp.html"
+    template="browser/templates/userhelp.pt"
+    for="Products.GSContent.interfaces.IGSSiteFolder"
+    class=".adminhelp.AdminHelp"
+    permission="zope2.View"/>
+-->
