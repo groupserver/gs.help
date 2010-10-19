@@ -14,7 +14,8 @@ class aWeightOrderedViewletManager(ViewletManagerBase):
             (self.context, self.request, self.__parent__, self),
             interfaces.IViewlet)
         viewlets = self.filter(viewlets)
-
+        viewlets = [v for v in viewlets if getattr(v[1], 'show', True)]
+        
         # --=mpj17=-- This is the main change to the standard viewlet 
         #       manager: the viewlets are sorted according to the
         #       "weight" attribute
