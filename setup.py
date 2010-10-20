@@ -32,6 +32,7 @@ setup(name='gs.help',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'gs.viewlet',
         'Products.GSContent',
         # -*- Extra requirements: -*-
     ],

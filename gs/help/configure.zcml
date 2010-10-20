@@ -14,7 +14,7 @@
     name="groupserver.AdminHelpViewletManager"
     permission="zope.Public"
     provides=".interfaces.IAdminHelp"
-    class=".mgr.WeightOrderedViewletManager"/>
+    class="gs.viewlet.manager.WeightOrderedViewletManager"/>
   <browser:page 
     name="adminhelp.html"
     template="browser/templates/adminhelp.pt"
@@ -27,7 +27,7 @@
     name="groupserver.UserHelpViewletManager"
     permission="zope.Public"
     provides=".interfaces.IUserHelp"
-    class=".mgr.WeightOrderedViewletManager"/>
+    class="gs.viewlet.manager.WeightOrderedViewletManager"/>
   <browser:page 
     name="userhelp.html"
     template="browser/templates/userhelp.pt"
