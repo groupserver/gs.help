@@ -6,6 +6,9 @@
     <title metal:fill-slot="title">Admin Help</title><!--TODO: FIX-->
   </head>
   <body>
+    <tal:block metal:fill-slot="contextnavigation">
+      <!--Replace with a funky Help-Contents thingy -->
+    </tal:block>
     <tal:block metal:fill-slot="body">
       <h1>Admin Help</h1>
       <p 
