@@ -1,16 +1,14 @@
-<html xmlns ="http://www.w3.org/1999/xhtml"
+<html xmlns="http://www.w3.org/1999/xhtml"
   xmlns:tal="http://xml.zope.org/namespaces/tal"
   xmlns:metal="http://xml.zope.org/namespaces/metal"
-  metal:use-macro="context/@@groupserver_layout/page">
+  metal:use-macro="context/@@groupserver_full_layout/page">
   <head>
-    <title metal:fill-slot="title">Admin Help</title><!--TODO: FIX-->
+    <title metal:fill-slot="title">Administration Manual:
+      <tal:block content="view/siteInfo/name">This Site</tal:block></title>
   </head>
   <body>
-    <tal:block metal:fill-slot="contextnavigation">
-      <!--Replace with a funky Help-Contents thingy -->
-    </tal:block>
     <tal:block metal:fill-slot="body">
-      <h1>Admin Help</h1>
+      <h1>Administration Manual</h1>
       <p 
         tal:replace="structure provider:groupserver.AdminHelpViewletManager">
         I am a fish
