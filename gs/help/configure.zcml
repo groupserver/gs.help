@@ -9,30 +9,41 @@
     - first viewlet in the help page.-->
   <include package="zope.viewlet" file="meta.zcml" />
   
-  <interface interface=".interfaces.IAdminHelp" />
+  <browser:page 
+    name="index.html"
+    template="browser/templates/help.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope.Public"/>
+  <browser:page 
+    name="faqs.html"
+    template="browser/templates/faqs.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope.Public"/>
+
   <browser:viewletManager
     name="groupserver.AdminHelpViewletManager"
     permission="zope.Public"
     provides=".interfaces.IAdminHelp"
-    class="gs.viewlet.manager.WeightOrderedViewletManager"/>
+    class="gs.viewlet.WeightOrderedViewletManager"/>
   <browser:page 
     name="adminhelp.html"
     template="browser/templates/adminhelp.pt"
-    for="Products.GSContent.interfaces.IGSSiteFolder"
-    class=".adminhelp.AdminHelp"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
     permission="zope.Public"/>
 
-  <interface interface=".interfaces.IUserHelp" />
   <browser:viewletManager
     name="groupserver.UserHelpViewletManager"
     permission="zope.Public"
     provides=".interfaces.IUserHelp"
-    class="gs.viewlet.manager.WeightOrderedViewletManager"/>
+    class="gs.viewlet.WeightOrderedViewletManager"/>
   <browser:page 
     name="userhelp.html"
     template="browser/templates/userhelp.pt"
-    for="Products.GSContent.interfaces.IGSSiteFolder"
-    class=".adminhelp.AdminHelp"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
 
 </configure>
