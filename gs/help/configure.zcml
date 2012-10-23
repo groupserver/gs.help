@@ -78,5 +78,26 @@
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
+
+  <!--Admin Guide-->
+  <!--TODO: Split this off into its own product. -->
+  <browser:page 
+    name="admin"
+    template="browser/templates/admin-index.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="design.html"
+    template="browser/templates/admin-design.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="roles.html"
+    template="browser/templates/admin-roles.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
 </configure>
 

@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_full_layout/page">
+  <head>
+    <title metal:fill-slot="title">Administration Guide: Help:
+      <tal:block replace="view/siteInfo/name">This site</tal:block>
+    </title>
+    <tal:block metal:fill-slot="metadata">
+      <link rel="up" href="/help" title="Help"/>
+    </tal:block>
+  </head>
+  <body>
+    <tal:block metal:fill-slot="body">
+      <h1>Administration Guide</h1>
+      <h2 class="subtitle">
+        A guide to establishing and supporting successful online groups
+      </h2>
+      <p>
+        Most online groups fail.
+        Either no participation occurs at all or the participation that occurs 
+        does not achieve the intended purpose of the group.
+        The chances that relevant participation will occur can be increased
+        by adequate <a href="design.html">design</a> and support and by
+        having a clear <a href="roles.html">role</a> for participant 
+        in the project. 
+        Even with both of these, participation development is often slow.
+      </p>
+    </tal:block>
+  </body>
+</html>
+

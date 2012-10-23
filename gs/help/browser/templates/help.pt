@@ -26,7 +26,7 @@
           Step-by-step instructions for using
           <span class="site" tal:content="view/siteInfo/name">this site</span>.
         </dd>
-        <dt><a href="admin_guide">Administration Guide</a></dt>
+        <dt><a href="admin">Administration Guide</a></dt>
         <dd>
           A guide to setting up groups and configuring
           <span class="site" tal:content="view/siteInfo/name">this site</span>.
