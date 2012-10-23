@@ -1,0 +1,107 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_full_layout/page">
+  <head>
+    <title metal:fill-slot="title">Follow Conversations Closely:
+      Participation Guide: Help: 
+      <tal:block content="view/siteInfo/name">This Site</tal:block></title>
+    <tal:block metal:fill-slot="metadata">
+      <link rel="up" href="/help/participation" title="Participation Guide"/>
+      <link rel="first" href="/help/benefits.html" 
+            title="Benefits of Online Participation"/> 
+      <link rel="prev" href="/help/keep-track.html" 
+            title="Keeping Track of Conversations"/> 
+      <link rel="next" href="/help/contribute.html" 
+            title="Contributing to Conversations"/>
+      <link rel="last" href="/help/contribute.html" 
+            title="Contributing to Conversations"/>
+    </tal:block>
+  </head>
+  <body>
+    <tal:block metal:fill-slot="body">
+      <h1>Follow Conversations Closely</h1>
+      <p>
+        If you are actively involved in an online group, you will probably want 
+        to follow the conversations closely. You can do this by reading the 
+        emails as they come in, but in busy online groups, it is often easier to
+        follow them via the web.
+      </p>
+      <ol>
+        <li><a href="#follow-email">Follow a Conversation Using Email</a></li>
+        <li><a href="#follow-web">Follow a Conversation via the Web</a></li>
+      </ol>
+
+      <div id="follow-email">
+        <h2>Follow a Conversation Using Email</h2>
+        <p>
+          As soon as a post is added to the group, 
+          <span tal:content="siteName" /> can send the full text of the post 
+          to you as an email message. The subject line contains the group name 
+          and the topic title, while the body of the email message 
+          contains the full text of the post.
+        </p>
+        <div id="follow-email-advantages">
+          <h3>Advantages</h3>
+          <ol>
+            <li>
+              You will be notified as soon as a post has been added to the
+              group.
+            </li>
+            <li>
+              You can read the full text of a post directly in your email, 
+              without needing to visit the website.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="follow-email-disadvantages">
+          <h3>Disadvantages</h3>
+          <ol>
+            <li>You may receive more email messages than you would like.</li>
+          </ol>
+        </div><!--section-->
+        <!--div id="follow-email-how">
+          <h3>How To</h3>
+          <div id="change-message-notification-email-content">Loading&#8230;</div>
+        </div--><!--section-->
+      </div><!--section-->
+
+      <div id="follow-web">
+        <h2>Follow a Conversation via the Web</h2>
+        <p>
+          When there are a lot of posts, it is easier to turn off email and
+          follow conversations on the website instead. Posts on <span tal:content="siteName" /> 
+          are organized into topics. Each topic is a readable sequence of messages, 
+          making it possible to follow several conversations even when they
+          are occurring simultaneously.
+        </p>
+        <div id="follow-web-advantages">
+        <h3>Advantages</h3>
+          <ol>
+            <li>
+              You will not receive a lot of email.
+            </li>
+            <li>
+              You do not have to manage a lot of stored email. 
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="follow-web-disadvantages">
+          <h3>Disadvantages</h3>
+          <ol>
+            <li>
+              You are not notified of new messages via email.
+            </li>
+          </ol>
+        </div><!--section-->
+        <!--div id="follow-web-how">
+          <h3>How To</h3>
+          <p>Set your message notification preferences to <cite>Email delivery disabled</cite>.</p>
+          <div id="change-message-notification-web-content">Loading&#8230;</div>
+          <p>Read messages via the web.</p>
+          <div id="reading-web-content">Loading&#8230;</div>
+        </div--><!--section-->
+      </div><!--section-->
+    </tal:block>
+  </body>
+</html>

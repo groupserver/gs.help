@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_full_layout/page">
+  <head>
+    <title metal:fill-slot="title">Participation Guide: Help: 
+      <tal:block content="view/siteInfo/name">This Site</tal:block></title>
+  </head>
+  <tal:block metal:fill-slot="metadata">
+    <link rel="up" href="/help" title="Help"/>
+  </tal:block>
+  <body>
+    <tal:block metal:fill-slot="body">
+      <h1>Participation Guide</h1>
+      <p>
+        This User Guide aims to help you gain the maximum 
+        <a href="benefits.html">benefit from participating</a> in your
+        Online Groups.
+      </p>
+      <p>
+
+        Often you want to 
+        <a href="keep-track.html">keep track of conversations</a> in online 
+        groups, without reading every post. 
+        At other times, you wish to 
+        <a href="follow_closely.html">follow a conversation closely</a>, or to
+        <a href="contribute.html">contribute to a conversation</a>. 
+        This guide explains different ways to do these things.
+      </p>
+      <div class="section" id="help-user-guide-contents">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="benefits.html">Benefits of Online Participation</a></li>
+          <li><a href="keep-track.html">Keeping Track of Conversations</a></li>
+          <li><a href="follow-closely.html">Following Conversations Closely</a></li>
+          <li><a href="contribute.html">Contributing to Conversations</a></li>
+        </ol>
+      </div><!--section-->
+    </tal:block>
+  </body>
+</html>

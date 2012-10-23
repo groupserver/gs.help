@@ -10,7 +10,7 @@
     <tal:block metal:fill-slot="body">
       <h1>Help</h1>
       <p>
-        
+        The.        
       </p>
     </tal:block>
   </body>

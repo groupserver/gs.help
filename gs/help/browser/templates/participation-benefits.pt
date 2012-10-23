@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_full_layout/page">
+  <head>
+    <title metal:fill-slot="title">Benefits of Online Participation:
+      Participation Guide: Help: 
+      <tal:block content="view/siteInfo/name">This Site</tal:block></title>
+  <tal:block metal:fill-slot="metadata">
+    <link rel="up" href="/help/participation" title="Participation Guide"/>
+    <link rel="next" href="/help/keep-track.html" 
+          title="Keeping Track of Conversations"/> 
+    <link rel="last" href="/help/contribute.html" 
+          title="Contributing to Conversations"/>
+ </tal:block>
+  </head>
+  <body>
+    <tal:block metal:fill-slot="body">
+      <h1>Benefits of Online Participation</h1>
+      <p>
+        Working and learning in groups is more fun, and you get more done. 
+        Complex problems are often more easily solved by a team, than an 
+        individual, especially when the team is made up of people with diverse 
+        points of view. People maintain the expertise they bring to teams, by 
+        associating with others who share their expertise. Work is more fun and 
+        interesting when you have people to swap notes, and toss ideas around 
+        with.
+      </p>
+      <div class="section">
+        <h2>Benefits of Collaborating Online</h2>
+        <p>
+          It's hard to beat collaborating in the same place at the same time, 
+          especially when you want to hear from everyone in the group. It's 
+          often difficult, however, to meet face-to-face. People may have to 
+          travel, but even if they don't, it's often hard to find a time when 
+          everyone is available. And face-to-face, each person can only 
+          participate in one conversation at a time. The larger the group, the 
+          worse these problems get.
+        </p>
+        <p>
+          The obvious benefit of collaborating online is that you can 
+          participate from wherever you like. There is no travelling required. 
+          Collaborating online, however, also means that people don't have to 
+          participate at the same time.
+        </p>
+        <dl>
+          <di>
+            <dt>No scheduling problems or interruptions</dt>
+            <dd>Each person can participate at the time that suits them.</dd>
+          </di>
+          <di>
+            <dt>Hold concurrent conversations</dt>
+            <dd>
+              People can participate in multiple conversations at the same time.
+            </dd>
+          </di>
+          <di>
+            <dt>Take your time</dt>
+            <dd>
+              People can take the time they want to reflect on and add to 
+              conversations.
+            </dd>
+          </di>
+          <di>
+            <dt>Meet in larger groups</dt>
+            <dd>
+              By breaking into sub-groups, large groups can easily meet online.
+            </dd>
+          </di>
+          <di>
+            <dt>In-built record-keeping</dt>
+            <dd>
+              All conversations online form a searchable archive that can be 
+              accessed at any time in the future.
+            </dd>
+          </di>
+        </dl>
+        <p>
+          Online collaboration does have disadvantages compared with 
+          face-to-face. There is no voice tone or body language, making it 
+          much less immediate and dynamic. These disadvantages cannot be 
+          overcome, but they can be mitigated by effective participation.
+        </p>
+      </div><!--section-->
+      <div class="section">
+        <h2>Benefits of Effective Participation</h2>
+        <p>
+          Taking time to communicate your ideas clearly makes them easier to
+          find. Others are more likely to pay attention to you, and more likely 
+          to respond thoughtfully.
+        </p>
+      </div><!--section-->
+    </tal:block>
+  </body>
+</html>

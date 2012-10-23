@@ -46,5 +46,37 @@
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
 
+  <!--Participation Guide-->
+  <!--TODO: Split this off into its own product. -->
+  <browser:page 
+    name="participation"
+    template="browser/templates/participation-index.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="benefits.html"
+    template="browser/templates/participation-benefits.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="contribute.html"
+    template="browser/templates/participation-contribute.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="follow-closely.html"
+    template="browser/templates/participation-follow-closely.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
+  <browser:page 
+    name="keep-track.html"
+    template="browser/templates/participation-keep-track.pt"
+    for=".interfaces.IGSHelp"
+    class="gs.content.base.page.SitePage"
+    permission="zope2.View"/>
 </configure>
 

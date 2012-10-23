@@ -1,0 +1,209 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_full_layout/page">
+  <head>
+    <title metal:fill-slot="title">Keeping Track of Conversations:
+      <tal:block content="view/siteInfo/name">This Site</tal:block></title>
+    <tal:block metal:fill-slot="metadata">
+      <link rel="up" href="/help/participation" title="Participation Guide"/>
+      <link rel="first" href="/help/benefits.html" 
+            title="Benefits of Online Participation"/> 
+      <link rel="prev" href="/help/benefits.html" 
+            title="Benefits of Online Participation"/> 
+      <link rel="next" href="/help/follow-closely.html" 
+            title="Follow Conversations Closely"/>
+      <link rel="last" href="/help/contribute.html" 
+            title="Contributing to Conversations"/>
+    </tal:block>
+  </head>
+  <body>
+    <tal:block metal:fill-slot="body">
+      <h1>Keeping Track of Conversations</h1>
+      <p>
+        Often, you do not wish to read every post in an online group, but you do
+        want to keep track of the conversation. The simplest way to do this is 
+        to glance at the subject and sender information, and then 
+        <a href="#delete-the-emails">delete the emails</a>. You can usually tell
+        what is being discussed in the group without reading every post, 
+        especially if members 
+        <a href="participation-contribute.html#contribute-write-good-subject-lines">write good subject lines</a>.
+        You can always go to the web interface to read the conversations in 
+        detail. If you prefer not to use this method, you can 
+        <a href="#filter-the-emails">filter the emails</a> or 
+        <a href="#topic-digest">use the topic digest</a> or 
+        <a href="#web-feed">a web feed</a>
+        to keep track of the conversations.
+      </p>
+      <div id="delete-the-emails">
+        <h2>Delete the Emails</h2>
+        <p>
+          You may receive a lot of email via your Online Group. The point of 
+          this is to increase communication but to do so effectively. You 
+          should be able to tell whether a post is relevant to you or not just
+          by reading the subject line. If it isn't relevant, you have still
+          gained information about what is going on in the group. If you do 
+          open and skim or read the email, you can then delete it, unless you 
+          want to respond to or act on it. You don't need to worry about 
+          finding it again later, because you can always go to the Topics area 
+          of the group to locate it.
+          </p>
+        <div id="delete-the-emails-advantages">
+          <h3>Advantages</h3>
+          <ol>
+            <li>
+              You can keep track of what is going on in the group while only 
+              reading emails that are relevant to you.
+            </li>
+            <li>
+              You do not have to manage a lot of stored email.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="delete-the-emails-disadvantages">      
+          <h3>Disadvantages</h3>
+          <ol>
+            <li>
+              To read a message again later, you must visit the website.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="delete-the-emails-how">
+          <h3>How To</h3>
+          <ol>
+            <li>
+              Look at the subject line and sender of the email message, and 
+              decide whether or not it is relevant to you.
+            </li>
+            <li>
+              If the message is relevant to you, open and read the email.
+            </li>
+            <li>
+              Delete the email.
+            </li>
+            <li>
+              To read the message again later, visit the Topics area of the
+              group and navigate or search for the relevant topic or post.
+            </li>
+          </ol>
+        </div><!--section-->
+      </div><!--section-->
+
+      <div id="filter-the-emails">
+        <h2>Filter the Emails</h2>
+        <p>
+          Some people find it useful to keep all of the posts from an online
+          group in a separate email folder. 
+          You can even set up a rule or filter to put them there automatically. 
+          If you prefer, you can delete the emails from your Inbox as you
+          receive them and read them in the Topics area when you  are ready. 
+        </p>
+        <div id="filter-the-emails-advantages">
+          <h3>Advantages</h3>
+          <ol>
+            <li>
+              Group posts are kept separate from the rest of your email.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="filter-the-emails-how">
+          <h3>How To</h3>
+          <ol>
+            <li>
+              In your email client, create a folder with the same name as the
+              group.
+            </li>
+            <li>
+              Create a rule or filter to put all messages from the group email 
+              address into that folder.
+            </li>
+          </ol>          
+        </div><!--section-->
+      </div><!--section-->
+
+      <div id="topic-digest">
+        <h2>Use the Topic Digest</h2>
+        <p>
+          <span tal:content="siteName" /> can send you an email 
+          summarising the top ten topics in the group. For each topic, the 
+          title, number of posts, date of the last post, and location of the 
+          topic on the web are displayed. The digest is sent once per day so 
+          long as there is activity in the group, or once per week if there is 
+          no activity in the group.
+        </p>
+        <div id="topic-digest-advantages">
+          <h3>Advantages</h3>
+          <ol>
+            <li>
+              You will not receive more than one email per day from each online
+              group that you have set to digest.
+            </li>
+            <li>
+              Based on the topic title and the number of posts, you can decide 
+              whether a topic is of interest <em>before</em> reading any of the 
+              posts in that topic.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="topic-digest-disadvantages">      
+          <h3>Disadvantages</h3>
+          <ol>
+            <li>
+              If you are interested in a topic, you must visit the website before
+              you can read any of the posts in that topic.
+            </li>
+            <li>
+              You may not see some posts for up to 24 hours after they are
+              posted.
+            </li>
+          </ol>
+        </div><!--section-->
+        <!--div id="topic-digest-how">
+          <h3>How To</h3>
+          <div id="change-message-notification-digest-content">Loading&#8230;</div>
+        </div--><!--section-->
+      </div><!--section-->
+
+      <div id="web-feed">
+        <h2>Use a Web Feed</h2>
+        <p>
+          <span tal:content="siteName" /> provides a web feed for 
+          all posts in a group. You can subscribe to the
+          <a class="weblink"
+            href="http://en.wikipedia.org/wiki/Web_feed">web feed</a>
+          of posts, and then your
+          <a class="weblink"
+            href="http://en.wikipedia.org/wiki/Feed_reader">feed reader</a>
+          will show you the most recent posts in the group.
+        </p>
+        <div id="web-feed-advantages">
+          <h3>Advantages</h3>
+          <ol>
+            <li>
+              You will be notified as soon as a post has been added to the 
+              group.
+            </li>
+            <li>
+              You can read the full text of a post directly in your feed
+              reader, without needing to visit the website.
+            </li>
+          </ol>
+        </div><!--section-->
+        <div id="web-feed-disadvantages">
+          <h3>Disadvantages</h3>
+          <ol>
+            <li>
+              You must have either an internet browser capable of functioning 
+              as a feed reader, or an account with a web-based feed reading
+              service.
+            </li>
+          </ol>
+        </div><!--section-->
+        <!--div id="web-feed-how">
+          <h3>How To</h3>
+          <div id="reading-web-feeds-content">Loading&#8230;</div>
+        </div--><!--section-->
+      </div><!--section-->
+    </tal:block>
+  </body>
+</html>
