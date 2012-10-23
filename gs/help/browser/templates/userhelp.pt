@@ -6,11 +6,11 @@
     <title metal:fill-slot="title">User Manual:
       <tal:block replace="view/siteInfo/name">This site</tal:block>
     </title>
+    <tal:block metal:fill-slot="metadata">
+      <link rel="up" href="/help" title="Help"/>
+    </tal:block>
   </head>
   <body>
-    <tal:block metal:fill-slot="contextnavigation">
-      <!--Replace with a funky Help-Contents thingy -->
-    </tal:block>
     <tal:block metal:fill-slot="body">
       <h1>User Manual</h1>
       <p 

@@ -10,8 +10,33 @@
     <tal:block metal:fill-slot="body">
       <h1>Help</h1>
       <p>
-        The.        
+        In addition to the 
+        <a href="faqs.html"><strong>Frequently Asked Questions,</strong></a> 
+        this Help section contains the following resources.
       </p>
+      <dl>
+        <dt><a href="participation">Participation Guide</a></dt>
+        <dd>
+          A guide to participating in groups
+          on
+          <span class="site" tal:content="view/siteInfo/name">this site</span>.
+        </dd>
+        <dt><a href="userhelp.html">User Manual</a>
+        <dd>
+          Step-by-step instructions for using
+          <span class="site" tal:content="view/siteInfo/name">this site</span>.
+        </dd>
+        <dt><a href="admin_guide">Administration Guide</a></dt>
+        <dd>
+          A guide to setting up groups and configuring
+          <span class="site" tal:content="view/siteInfo/name">this site</span>.
+        </dd>
+        <dt><a href="adminhelp.html">Administration Manual</a></dt>
+        <dd>
+          Step-by-step instructions for the administration of
+          <span class="site" tal:content="view/siteInfo/name">this site</span>.
+        </dd>
+      </dl>
     </tal:block>
   </body>
 </html>
