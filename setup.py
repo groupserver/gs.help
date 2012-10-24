@@ -32,9 +32,11 @@ setup(name='gs.help',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'zope.interface',
+        'zope.viewlet',
+        'gs.content.base', 
+        'gs.content.layout', 
         'gs.viewlet',
-        'Products.GSContent',
-        # -*- Extra requirements: -*-
     ],
     entry_points="""
     # -*- Entry points: -*-
