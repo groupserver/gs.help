@@ -15,49 +15,43 @@
     <tal:block metal:fill-slot="body">
       <h1>Design of Online Groups</h1>
       <p>
-        An online group is virtual.
-        It exists in the imagination of the participants. 
-        When people act on their belief that an online group exists, and 
-        post to it, this strengthens the  participants' belief in the
-        existence of the online group. 
-        An online groups is more coherent when the participants have a 
-        single  shared view of what the online group is. 
-        To develop successful online groups, it is therefore important to
-        clearly communicate what kind of a place the online group is, both 
-        to the participants  and to non-participants. 
-        The settings in the software, all actions taken by the owner, 
-        participation coach and the administrator,  must be consistent 
-        with this. 
-        Once the group has been launched,the design should never be changed.
+        When a site administrator starts an online group, there are
+        some decisions to be made. Those decisions affect the way 
+        that group members will perceive and participate in the 
+        online group. It is worth taking care over those decisions.
+        This guide will help you to think about how to set up your
+        online group so that it is likely to be successful.
       </p>
       <p>
-        The Design defines the purpose of the online group, and its main
-        boundaries:
+        When starting a group, the site administrator will
+        have to make decisions on the following features of 
+        the online group.
       </p>
-      <dl>
-          <dt>Membership</dt>
-          <dd>Who can be in the group and what their roles are.</dd>
-
-          <dt>Participation Protocol</dt>
-          <dd>What is ok in the online group.</dd>
-      </dl>
-      <p>
-        The Design must be based on an understanding of the nature and 
-        requirements of the (real life) group that the Online Group is 
-        for.
-        If this understanding is not present, an assessment must be 
-        carried out. 
-        If the OnlineGroups.Net Consultant and Online Group Owner, 
-        together have that understanding, then the documentation of  it 
-        that will be  implicit in this Design will be sufficient 
-        documentation. 
-        It is important that the Design Elements are assessed carefully 
-        against the criteria provided for each element as this will ensure 
-        that the design is well-linked to the shared understanding of 
-        the nature and requirements of the group.
-      </p>
-      <div id="name">    
-        <h2>Name</h2>
+      <ul>
+        <li>
+        	<a href="#name">Group Name</a>
+        </li>
+        <li>
+        	<a href="#id">Group ID</a>
+        </li>
+        <li>
+        	<a href="#privacy">Privacy Setting</a>
+        </li>
+        <li>
+        	<a href="#description">Short Description</a>
+        </li>
+        <li>
+        	<a href="#prefix">Subject Line Prefix</a>
+        </li>
+        <li>
+        	<a href="#membership">Membership Criterion</a>
+        </li>
+        <li>
+        	<a href="#about">About the Group</a>
+        </li>
+      </ul>
+      
+        <h2 id="name">Group Name</h2>
         <p>
           The name is the most important design element of an Online 
           Group. 
@@ -97,59 +91,45 @@
             The name must not clash with any other group.
           </dd>
         </dl>
-        <div class="note">
-          <p>
+          <p class="note">
             <strong class="label">Hyphens and Underscores</strong>
             The Internet convention seems to be that underscores are a
             replacement for spaces and hyphens are a separator (perhaps 
             between set and member in set-member). 
             For online group names, either makes sense.
           </p>
-        </div><!--section-->
-      </div><!--section-->
-      <div id="owner">
-        <h2>Owner</h2>
+
+      <h2 id="id">Group ID</h2>
+
+
         <p>
-          Is it important that the participants know who convened
-          the establishment of the Online Group. See 
-          <a href="admin-roles.html#owner">Roles in Online Groups</a>
-          for more information.
+          All Online Groups are located in a site. 
+          Project Owners with multiple Online Groups often have a site of
+          their own.
+          Where a new site is to be established, a Site Design is required. 
+          Where the Online Group is to be located in a site that already 
+          exists, or for which a Site Design has been completed, all that 
+          is required is to name that site. 
         </p>
-      </div><!--section-->    
-      <div id="real-life-group">
-        <h2>Real Life Group</h2>
+
+
+      <h2 id="privacy">Privacy Setting</h2>
+
         <p>
-          The Real Life Group is the group of people that the Online Group
-          is for. 
-          The group might or might not exist already. 
-          It is important to distinguish the Real Life Group from the 
-          Online Group as they are separate entities.
-          The Real Life Group meets in the Online Group, and may also meet 
-          face to face or via other media.
+          The boundaries of Online Groups are highly variable. 
+          Groups can be very public, very private and have a number of 
+          levels of privacy in between those. 
+          It is important that the level of privacy is appropriate to the
+          requirements for the group and that it is communicated very 
+          clearly to the participants.
         </p>
-        <p>
-          The Real Life Group should be named in such a way that it can be used to 
-          complete the statement "[OnlineGroupName] is an Online Group 
-          for&#8230;"
-        </p>
-      </div><!--section-->
-      <div id="purpose-satement">
-        <h2>Purpose Statement</h2>
-        <p>
-          The purpose statement defines the reason for the existence of 
-          the Online Group. 
-          The purpose of the Online Group is different to the  purpose of
-          the Real Life group. 
-          purpose of the Online Group is usually to, in some way, enable 
-          the Real Life Group to achieve its purpose. 
-          The Purpose Statement must define how the Online Group will
-          enable the Real Life Group to achieve its purpose.
-          It must do so in a straightforward way that is compelling and 
-          attractive to the group members.
-        </p>
-      </div><!--section-->
-      <div id="membership-criterion">
-        <h2>Membership Criterion</h2>
+
+      <h2 id="description">Short Description</h2>
+
+      <h2 id="prefix">Subject Line Prefix</h2>
+      
+      <h2 id="membership">Membership Criterion</h2>
+            
         <p>
           The Membership Definition is the most defined boundary that an 
           Online Group has. 
@@ -169,32 +149,12 @@
           Membership is conditional on compliance with the Participation
           Protocol.
         </p>
-      </div><!--section-->
-      <div id="visibility">    
-        <h2>Visibility</h2>
-        <p>
-          The boundaries of Online Groups are highly variable. 
-          Groups can be very public, very private and have a number of 
-          levels of privacy in between those. 
-          It is important that the level of privacy is appropriate to the
-          requirements for the group and that it is communicated very 
-          clearly to the participants.
-        </p>
-      </div><!--section-->
-      <div id="location">
-        <h2>Location</h2>
-        <p>
-          All Online Groups are located in a site. 
-          Project Owners with multiple Online Groups often have a site of
-          their own.
-          Where a new site is to be established, a Site Design is required. 
-          Where the Online Group is to be located in a site that already 
-          exists, or for which a Site Design has been completed, all that 
-          is required is to name that site. 
-        </p>
-      </div><!--section-->
-      <div id="participation-protocol">
-        <h2>Participation Protocol</h2>
+
+
+      <h2 id="about">About the Group</h2>
+     
+
+        <h3>Participation Protocol</h3>
         <p>
           The Participation Protocol defines the secondary boundary for 
           the Online Group. 
@@ -202,15 +162,14 @@
           The Membership Definition (the primary boundary) is conditional 
           on compliance with the Participation Protocol.
         </p>
-      </div><!--section-->
-      <div id="encouraged-participation">
-        <h2>Encouraged Participation</h2>
+
+        <h3>Encouraged Participation</h3>
         <p>
           The Encouraged Participation items provide a chance to name 
           the particular kinds of participation that are expected to 
           achieve the purpose for the Participants and the Owner.
         </p>
-      </div><!--section-->
+
     </tal:block>
   </body>
 </html>
