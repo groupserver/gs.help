@@ -15,36 +15,40 @@
     <tal:block metal:fill-slot="body">
       <h1>Roles in Online Groups</h1>
       <p>
-        Online Groups require adequate support, if they are to flourish. That 
-        support involves a variety of roles, interacting with each other and 
-        each attending to a particular aspect of support for the online group.
+        Successful Online Groups need people  interacting with each other
+        in a variety of roles. All online groups have participants of course.
+        But there are other roles that are important. Some roles may not even 
+        involve being a member of the group.
       </p>
       <p>
-        It is important that all participants in the project know who is in
-        each role and what their responsibilities in that role are.
+        It is helpful if all participants in an online group know who is in
+        each role and what responsibilities they have in their role.
       </p>        
       <p>
         There are no universally accepted definitions for roles in online 
-        groups. 
-        The definitions presented here have been developed by OnlineGroups.Net.
+        groups. Here are some role descriptions developed by OnlineGroups.Net.
       </p>
       <p>
-        The roles in an online group are:
+        The main roles in an online group are:
       </p>
       <ul>
         <li>
           <a href="#participant">Participant</a>
         </li>
         <li>
-          <a href="#owner">Owner</a>
-        </li>
-        <li>
           <a href="#administrator">Administrator</a>
         </li>
         <li>
-          <a href="#consultant">Online Groups Consultant</a>
+          <a href="#owner">Owner</a>
+        </li>
+        <li>
+          <a href="#consultant">Consultant</a>
         </li>
       </ul>
+      <p>
+        Some <a href="#other">other roles</a> can be important, too.
+      </p>
+
       <h2 id="participant">Participant</h2>
       <p>
         All members of an online group are participants. 
@@ -66,55 +70,6 @@
         As well as benefitting the participants themselves, participation
         benefits the Owner.
       </p>
-      <h2 id="owner">Owner</h2>
-      <p>
-        The Owner is the person or organisation that has commissioned the 
-        establishment of the online group in order to achieve particular 
-        benefits.
-        When the owner is an organisation, one person represents the
-        organisation.
-        Along with the Participants, 
-        the Owner is a key stakeholder in the project. 
-        When the participants participate, the Owner benefits and 
-        the participants benefit. 
-        The Owner has the authority to initiate and to terminate the Online
-        Group project.
-      </p>   
-      <p>
-        Online Groups are not and can not be democracies. One person 
-        always has the administrator's password. It is important that 
-        people know who that is and who they are accountable to. 
-        Even if the group itself was, nominally the owner, without a 
-        very clearly defined constitution and decision-making process, 
-        any real process to make major decisions could quickly subsume 
-        getting on with the intended business of the group.
-      </p>
-      <p>
-        The Participation Coach and Administrator are accountable to the Owner.
-      </p>
-      <h3>Goal</h3>
-      <p>
-        The goal of the Owner is to ensure that the online groups achieves 
-        its purpose, both for the participants and the Owner.
-      </p>
-      <h3>Tasks</h3>
-      <p>
-        The tasks of the owner are:
-      </p>
-      <ul>
-        <li>           
-          ensure that the Participation Coach is resourced and supported in 
-          their role
-        </li>
-        <li>
-          ensure that the Participation Coach is actively carrying out their
-          role
-        </li>
-        <li>
-          participate in periodic (at least annual) participation development
-          reviews
-        </li>
-      </ul>
       <h2 id="administrator">Administrator</h2>
       <p>
         The Administrator carries out moves adds and changes to the membership
@@ -122,7 +77,7 @@
         The Administrator is accountable to the Owner. 
         The role of Administrator is often taken by the Participation Coach.
       </p>    
-      <h2 id="participation_coach">Participation Coach</h2>
+
       <p>
         All <a href="http://onlinegroups.net/">OnlineGroups.Net</a>
         online groups have a designated Participation Coach.
@@ -194,19 +149,69 @@
         </li>
       </ul> 
       
-      <h2 id="consultant">Online Groups Consultant</h2>
+      <h2 id="owner">Owner</h2>
       <p>
-        The Online Groups Consultant acts as an assistant and adviser to the
+        The Owner is the person or organisation that has commissioned the 
+        establishment of the online group in order to achieve particular 
+        benefits.
+        When the owner is an organisation, one person represents the
+        organisation.
+        Along with the Participants, 
+        the Owner is a key stakeholder in the project. 
+        When the participants participate, the Owner benefits and 
+        the participants benefit. 
+        The Owner has the authority to initiate and to terminate the Online
+        Group project.
+      </p>   
+      <p>
+        Online Groups are not and can not be democracies. One person 
+        always has the administrator's password. It is important that 
+        people know who that is and who they are accountable to. 
+        Even if the group itself was, nominally the owner, without a 
+        very clearly defined constitution and decision-making process, 
+        any real process to make major decisions could quickly subsume 
+        getting on with the intended business of the group.
+      </p>
+      <p>
+        The Participation Coach and Administrator are accountable to the Owner.
+      </p>
+      <h3>Goal</h3>
+      <p>
+        The goal of the Owner is to ensure that the online groups achieves 
+        its purpose, both for the participants and the Owner.
+      </p>
+      <h3>Tasks</h3>
+      <p>
+        The tasks of the owner are:
+      </p>
+      <ul>
+        <li>           
+          ensure that the Participation Coach is resourced and supported in 
+          their role
+        </li>
+        <li>
+          ensure that the Participation Coach is actively carrying out their
+          role
+        </li>
+        <li>
+          participate in periodic (at least annual) participation development
+          reviews
+        </li>
+      </ul>
+
+      <h2 id="consultant">Consultant</h2>
+      <p>
+        The Consultant acts as an assistant and adviser to the
         Owner and Participation Coach.
       </p>
       <h3>Goal</h3>
       <p>
-        The goal of the Online Groups Consultant is the active and effective 
+        The goal of the Consultant is the active and effective 
         functioning of the other participants.
       </p>
       <h3>Tasks</h3>
       <p>
-        The tasks of the Online Groups Consultant are to:
+        The tasks of the Consultant are to:
       </p>
       <ul>
         <li>
@@ -221,7 +226,7 @@
           Owner
         </li>
       </ul> 
-      <h2>Other Roles in Online Groups</h2>
+      <h2 id="other">Other Roles in Online Groups</h2>
       <ul>
         <li>
           Moderator &#8213; receives all posts submitted by participants and
