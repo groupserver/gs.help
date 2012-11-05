@@ -23,10 +23,6 @@
         <li><a href="#gs-help-faq-change-email">
           How do I change my email address?</a>
         </li>
-        <li><a href="#gs-help-faq-file-attach-freezes">
-          When I try to send a file to my online group via the web, the page 
-          freezes.</a>
-        </li>
         <li><a href="#gs-help-faq-delete-posts-files">
           How do I delete a post? How do I delete a file?</a>
         </li>
@@ -79,32 +75,18 @@
         </p>
       </div><!--section-->
 
-      <div class="section" id="gs-help-faq-file-attach-freezes">
-        <h2>
-          When I try to send a file to my online group via the web, the page
-          freezes.
-        </h2>
-        <p>
-          If you wish to share a link to a webpage with your group, simply 
-          paste the URL of the webpage into the <cite>Message</cite> section 
-          of the page, along with the rest of your post.
-        </p>
-        <p>
-          You should only use the <cite>File</cite> section of the page to 
-          select and upload a file that is saved to your local computer.
-        </p>
-      </div><!--section-->
       
       <div class="section" id="gs-help-faq-delete-posts-files">
         <h2>How do I delete a post? How do I delete a file?</h2>
         <p>
-          Because messages and files in 
-          <span tal:content="view/siteInfo/name" /> groups are sent 
-          out via email as well as being displayed on the web, we cannot alter 
-          or delete any post or file once it has been added to the group. (If 
-          we did that, then the email version would be different from the web 
-          version, which would be very strange.) Instead, we encourage you to
-          post another message correcting your previous one.
+          You can not delete a post or file but you can hide a post 
+          and the files associated with it. To hide post, visit 
+          the post on the web and click the "hide" button.
+          
+          Keep in mind that messages sent by email can not be withdrawn.
+          
+          The files that are linked to in the email version of a post
+          that has been hidden will, however be hidden.
         </p>
       </div><!--section-->
       
