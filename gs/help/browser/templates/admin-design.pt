@@ -29,10 +29,10 @@
       </p>
       <ul>
         <li>
-        	<a href="#name">Group Name</a>
+        	<a href="#name">Name</a>
         </li>
         <li>
-        	<a href="#id">Group ID</a>
+        	<a href="#id">Identifier</a>
         </li>
         <li>
         	<a href="#privacy">Privacy Setting</a>
@@ -51,123 +51,120 @@
         </li>
       </ul>
       
-        <h2 id="name">Group Name</h2>
+        <h2 id="name">Name</h2>
         <p>
           The name is the most important design element of an Online 
           Group. 
           It embodies the essence of the group and, if it works, will 
-          become a shared shorthand for all the participants know and 
-          value about the group.
+          become a shared shorthand for everything that the participants 
+          know and value about the group.
         </p>
         <p>    
-          The name should be easy to say and to refer to in email. 
-          It should be suitable for use in a url and an email address 
-          (probably all in lower case).
-          The name can have "full" and "short" versions.
-        </p>
-        <p>
-          The criteria for a name are:
+          The name of an online groups should meet the following criteria.
         </p>
         <dl>
-          <dt>Potency</dt>
+          <dt>Compelling</dt>
           <dd>
-            The name should be interesting and engaging so that it 
-            communicates a lot of meaning.
-            Double meanings and humour can be useful in generating names 
-            that are catchy but not overdone.
+            The name should be interesting and engaging so that people like it.
+            It should be easy to say aloud. 
+            Double meanings and humour can be useful for generating 
+            catchy names.
           </dd>
           
-          <dt>Brevity</dt>
+          <dt>Encompassing</dt>
+          <dd>
+            The name should encapsulate the people,
+            the purpose, the participation and the 
+            passion that are planned for the group.
+          </dd>
+
+          <dt>Brief</dt>
           <dd>&#9786;</dd>
 
-          <dt>Accuracy</dt>
+          <dt>Fitting</dt>
           <dd>
-            The name should encapsulate or evoke the people, the place,
-            the purpose, the participation, and the passion.
-          </dd>
-
-          <dt>Fit</dt>
-          <dd>
-            The name must not clash with any other group.
+            The should make sense in relation to its context: the site
+            on which it resides, and the other groups that reside on that site.
+            The name should lend itself to a suitable <a href="#id">identifier</a>. 
           </dd>
         </dl>
-          <p class="note">
-            <strong class="label">Hyphens and Underscores</strong>
-            The Internet convention seems to be that underscores are a
-            replacement for spaces and hyphens are a separator (perhaps 
-            between set and member in set-member). 
-            For online group names, either makes sense.
-          </p>
 
-      <h2 id="id">Group ID</h2>
-
+      <h2 id="id">Identifier</h2>
 
         <p>
-          All Online Groups are located in a site. 
-          Project Owners with multiple Online Groups often have a site of
-          their own.
-          Where a new site is to be established, a Site Design is required. 
-          Where the Online Group is to be located in a site that already 
-          exists, or for which a Site Design has been completed, all that 
-          is required is to name that site. 
+          The group identifier (or "ID") is used in the email address and 
+          web address (or url) of the group. The ID should closely match
+          the name of the group but should be all lower case, with no 
+          spaces or other characters that are not allowed in an email
+          address or url.
         </p>
 
 
       <h2 id="privacy">Privacy Setting</h2>
 
         <p>
-          The boundaries of Online Groups are highly variable. 
-          Groups can be very public, very private and have a number of 
-          levels of privacy in between those. 
-          It is important that the level of privacy is appropriate to the
-          requirements for the group and that it is communicated very 
-          clearly to the participants.
+          The privacy setting determines who can view posts, 
+          join the group and even see the existence of the group.
+          A more restrictive privacy setting creates greater
+          possibility for trust in the group but makes it harder
+          to participate. A more permissive privacy setting 
+          makes it easier for people to participate in the group 
+          but harder to develop trust.
+        </p>
+        <p>
+          A private or secret group should have a 
+          clear <a href="#membership">membership 
+          criterion</a>.
         </p>
 
       <h2 id="description">Short Description</h2>
 
+        <p>
+          The short description is shown to group members 
+          and people who may join or request to join the group.
+          It should summarise the purpose of the group and who
+          the group is for.
+        </p>
+
       <h2 id="prefix">Subject Line Prefix</h2>
       
+        <p>
+          The subject line prefix appears in square brackets
+          at the start of the subject line of all posts made
+          via the group. It allows group members to easily spot
+          posts from the group. The subject line prefix should 
+          be short but easily recognised. Often the subject 
+          line tag is the same as the <a href="#id">identifier</a>.
+        </p>
+
       <h2 id="membership">Membership Criterion</h2>
             
         <p>
-          The Membership Definition is the most defined boundary that an 
-          Online Group has. 
-          It determines who can be in the group.
-          The membership must be defined in such a way that 
-          it can be implemented in an even-handed way in the future.
-        </p>   
+          The membership criterion tells group members
+          who may be invited or allowed to join a 
+          <a href="#privacy">private or secret group</a>
+          in future. Any post that is made to the group
+          could in future be read by someone who meets
+          the membership criterion.
+        </p>
         <p>
-          It is important that group participants know, not just who is 
-          in the group at present, but who might join the group in future. 
           It is also important that participants know 
           that they may no longer meet the membership criterion in future, 
           for example if the membership is restricted to current 
           office-holders in a committee.
         </p>   
         <p>
-          Membership is conditional on compliance with the Participation
-          Protocol.
-        </p>
-
+          The membership criterion should be worded in such a way that 
+          it can be enforced in an even-handed way in the future.
+        </p>   
 
       <h2 id="about">About the Group</h2>
-     
-
-        <h3>Participation Protocol</h3>
+ 
         <p>
-          The Participation Protocol defines the secondary boundary for 
-          the Online Group. 
-          It defines "what is OK" in the Online Group. 
-          The Membership Definition (the primary boundary) is conditional 
-          on compliance with the Participation Protocol.
-        </p>
-
-        <h3>Encouraged Participation</h3>
-        <p>
-          The Encouraged Participation items provide a chance to name 
-          the particular kinds of participation that are expected to 
-          achieve the purpose for the Participants and the Owner.
+          The About the Group section can contain any information 
+          that is relevant to the group. It may contain a logo or image, 
+          a link to sites relevant to the group. It may contain 
+          rules that apply to the group.
         </p>
 
     </tal:block>
