@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright © 2014 OnlineGroups.net and Contributors. -->
+<!-- All Rights Reserved. -->
+
+<!-- This software is subject to the provisions of the Zope Public -->
+<!-- License, Version 2.1 (ZPL).  A copy of the ZPL should accompany this -->
+<!-- distribution. -->
+
+<!-- THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED -->
+<!-- WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED -->
+<!-- WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND -->
+<!-- FITNESS FOR A PARTICULAR PURPOSE. -->
 <configure xmlns="http://namespaces.zope.org/zope"
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five"
   i18n_domain="groupserver">
-  
+
   <!--For some reason if the following line is not present the system
     - throws a ForbiddenAttribute error on the render attribute of the
     - first viewlet in the help page.-->
   <include package="zope.viewlet" file="meta.zcml" />
-  
-  <browser:page 
+
+  <browser:page
     name="index.html"
     template="browser/templates/help.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope.Public"/>
-  <browser:page 
+  <browser:page
     name="faqs.html"
     template="browser/templates/faqs.pt"
     for=".interfaces.IGSHelp"
@@ -27,7 +38,7 @@
     permission="zope.Public"
     provides=".interfaces.IAdminHelp"
     class="gs.viewlet.WeightOrderedViewletManager"/>
-  <browser:page 
+  <browser:page
     name="adminhelp.html"
     template="browser/templates/adminhelp.pt"
     for=".interfaces.IGSHelp"
@@ -39,7 +50,7 @@
     permission="zope.Public"
     provides=".interfaces.IUserHelp"
     class="gs.viewlet.WeightOrderedViewletManager"/>
-  <browser:page 
+  <browser:page
     name="userhelp.html"
     template="browser/templates/userhelp.pt"
     for=".interfaces.IGSHelp"
@@ -48,31 +59,31 @@
 
   <!--Participation Guide-->
   <!--TODO: Split this off into its own product. -->
-  <browser:page 
+  <browser:page
     name="participation"
     template="browser/templates/participation-index.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="benefits.html"
     template="browser/templates/participation-benefits.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="contribute.html"
     template="browser/templates/participation-contribute.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="follow-closely.html"
     template="browser/templates/participation-follow-closely.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="keep-track.html"
     template="browser/templates/participation-keep-track.pt"
     for=".interfaces.IGSHelp"
@@ -81,23 +92,22 @@
 
   <!--Admin Guide-->
   <!--TODO: Split this off into its own product. -->
-  <browser:page 
+  <browser:page
     name="admin"
     template="browser/templates/admin-index.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="design.html"
     template="browser/templates/admin-design.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
-  <browser:page 
+  <browser:page
     name="roles.html"
     template="browser/templates/admin-roles.pt"
     for=".interfaces.IGSHelp"
     class="gs.content.base.page.SitePage"
     permission="zope2.View"/>
 </configure>
-
