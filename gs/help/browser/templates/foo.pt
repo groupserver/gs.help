@@ -1,7 +1,0 @@
-<div>
-  <p tal:content="options/viewlets">Render?</p>
-  <div class="entry"
-    tal:repeat="viewlet options/viewlets">Viewlet?
-  </div>
-  <p>Render!</p>
-</div>

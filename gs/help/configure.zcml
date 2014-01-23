@@ -11,9 +11,8 @@
 <!-- WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND -->
 <!-- FITNESS FOR A PARTICULAR PURPOSE. -->
 <configure xmlns="http://namespaces.zope.org/zope"
-  xmlns:browser="http://namespaces.zope.org/browser"
-  xmlns:five="http://namespaces.zope.org/five"
-  i18n_domain="groupserver">
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="groupserver">
 
   <!--For some reason if the following line is not present the system
     - throws a ForbiddenAttribute error on the render attribute of the
