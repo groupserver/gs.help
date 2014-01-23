@@ -21,15 +21,15 @@
 
   <browser:page
     name="index.html"
-    template="browser/templates/help.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/help.pt"
     permission="zope.Public"/>
   <browser:page
     name="faqs.html"
-    template="browser/templates/faqs.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/faqs.pt"
     permission="zope.Public"/>
 
   <browser:viewletManager
@@ -39,9 +39,9 @@
     class="gs.viewlet.WeightOrderedViewletManager"/>
   <browser:page
     name="adminhelp.html"
-    template="browser/templates/adminhelp.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/adminhelp.pt"
     permission="zope.Public"/>
 
   <browser:viewletManager
@@ -51,62 +51,62 @@
     class="gs.viewlet.WeightOrderedViewletManager"/>
   <browser:page
     name="userhelp.html"
-    template="browser/templates/userhelp.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/userhelp.pt"
     permission="zope2.View"/>
 
   <!--Participation Guide-->
   <!--TODO: Split this off into its own product. -->
   <browser:page
     name="participation"
-    template="browser/templates/participation-index.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/participation-index.pt"
     permission="zope2.View"/>
   <browser:page
     name="benefits.html"
-    template="browser/templates/participation-benefits.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/participation-benefits.pt"
     permission="zope2.View"/>
   <browser:page
     name="contribute.html"
-    template="browser/templates/participation-contribute.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/participation-contribute.pt"
     permission="zope2.View"/>
   <browser:page
     name="follow-closely.html"
-    template="browser/templates/participation-follow-closely.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/participation-follow-closely.pt"
     permission="zope2.View"/>
   <browser:page
     name="keep-track.html"
-    template="browser/templates/participation-keep-track.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/participation-keep-track.pt"
     permission="zope2.View"/>
 
   <!--Admin Guide-->
   <!--TODO: Split this off into its own product. -->
   <browser:page
     name="admin"
-    template="browser/templates/admin-index.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/admin-index.pt"
     permission="zope2.View"/>
   <browser:page
     name="design.html"
-    template="browser/templates/admin-design.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/admin-design.pt"
     permission="zope2.View"/>
   <browser:page
     name="roles.html"
-    template="browser/templates/admin-roles.pt"
     for=".interfaces.IGSHelp"
-    class="gs.content.base.page.SitePage"
+    class="gs.content.base.SitePage"
+    template="browser/templates/admin-roles.pt"
     permission="zope2.View"/>
 </configure>
